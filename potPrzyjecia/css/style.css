@@ -1,0 +1,68 @@
+* {margin: 0; padding: 0;}
+body {margin: 0; padding: 2%; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; text-align: left; font-size: 11px; color: #000; background: #f8f8f8;}
+
+h2, h3, h4, h5, h6 {margin: 0;}
+h3 {float: left; width: 10%;}
+h4 {font-size: 1.25em;}
+h2 {font-size: 1.5em; font-weight: normal;}
+p {line-height: 150%;}
+select, input {padding: 0.25em; font-size: 1em; border: 1px solid #369;}
+
+ul {float: left; width: 100%; margin: 1em 0; list-style: none; border-bottom: 1px solid #39f;}
+.menu li {float: left; margin: 0 1em; vertical-align: bottom;}
+.menu a {display: block; padding: 0.5em; font-weight: bold; text-decoration: none; color: #fff; border-top: 3px solid #369; background: #369;}
+.menu a:hover {text-decoration: underline; background: #369; border-top: 3px solid #39f;}
+.menu .selected {background: #39f;}
+
+#button input {float: left; margin: 1em 1em 0 1em;}
+.error {color: #c33;}
+
+table {width: 100%; font-size: 80%;}
+th {padding: 2px; color: #fff; background: #369;}
+tr.row2 td {background: #e7e7e7; border-top: 1px solid #B6C7E1; border-bottom: 1px solid #B6C7E1;}
+td {padding: 2px;}
+td a {display: block; padding: 0.5em; color: #fff; font-weight: bold; background: #39f;}
+td a:hover {background: #369;}
+
+/* ---------formularze---------*/
+fieldset {float: left; width: 100%; border: none;}
+.button, .submit {padding: 0.25em; background: #39f; color: #fff; cursor: pointer;}
+.submit {margin: 1em; padding: 0.25em 0.5em; background: #390;}
+
+#header {float: left; width: 100%;}
+#search_engine {float: left; width: 100%; padding: 1em;}
+#search_engine select {width: 100px;}
+
+#form table {width: 100%; font-size: small;}
+.l10 {width: 1px;}
+.l15 {width: 10px;}
+.l20 {width: 80px;}
+.l21 {width: 90px;}
+.l22 {width: 120px;}
+.l25 {width: 140px;}
+#form input {vertical-align: middle; border: none; border-bottom: 1px dotted #333;}
+#form h2, #form h3 {text-align: center;}
+#form h2 {padding: 4em 0 0 0; background: #fff url('../images/logoo.gif') top left no-repeat;}
+#form h3, #form h4 {padding: 1em 0;}
+
+#gwar table {width: 100%; font-size: small;}
+.l10 {width: 1px;}
+.l15 {width: 10px;}
+.l20 {width: 80px;}
+.l21 {width: 90px;}
+.l22 {width: 120px;}
+.l25 {width: 140px;}
+#gwar h2, #gwar h3 {text-align: center;}
+#gwar h2 {padding: 1em 0;}
+#gwar h3, #gwar h4 {padding: 1em 0;}
+.ziel a {display: block; padding: 0.5em; color: #fff; font-weight: bold; background: #009900;}
+.ziel a:hover {background: #006600;}
+
+#potwierdzenie {margin: 3em 0;}
+
+.navigator {width: 100%; margin: 0.5em 0; text-align: center;}
+.navigator a {padding: 3px 8px; margin: 0 3px; color: #fff; background: #369;}
+.navigator a:hover {border-top: 2px solid #39f;}
+.navigator .selected {font-weight: bold; background: #39f;}
+
+#debug {float: left; width: 100%;}
