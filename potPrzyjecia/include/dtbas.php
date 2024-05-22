@@ -6,9 +6,9 @@
 // ąćęłńóśżźĄĆĘŁŃÓŚŻŹ (utf-8)
 
 $db_srvr1 = "localhost";
-$db_user1 = "notebook_joom671";
-$db_pswd1 = "@3GS916@pf";
-$db_dtbs1 = "notebook_joom671";
+$db_user1 = "user";
+$db_pswd1 = "pass";
+$db_dtbs1 = "baza";
 
 $db_error00 = '';
 $db_error01 = 'ERROR (mysql_connect): nie mozna polaczyc sie z baza danych, sprobuj pozniej.';
