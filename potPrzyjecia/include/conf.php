@@ -5,7 +5,7 @@
 
 // ąćęłńóśżźĄĆĘŁŃÓŚŻŹ (utf-8)
 
-$serwn = "Location: http://serwis.notebookservice.pl/";
+$serwn = "Location: http://[strona]/";
 
 
 
