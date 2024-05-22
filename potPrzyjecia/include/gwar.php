@@ -18,9 +18,9 @@
 <center><h4>Zgłoszenie usterek objętych naprawą gwarancyjną są przyjmowane telefonicznie bądź w biurze obsługi klienta.</h4></center>
 
 <table style="text-align:center;">
-<tr><td>Notebook Serwice</td><td>Telefony:</td></tr>
-<tr><td>ul. Pułaskiego 6B</td><td>503 779 312</td></tr>
-<tr><td>33-100 Tarnów</td><td></td></tr>
+<tr><td>[nazwa]</td><td>[Tel]:</td></tr>
+<tr><td>[adres]</td><td>[tel]</td></tr>
+<tr><td>[kod, miasto]</td><td></td></tr>
 </table>
 
 
