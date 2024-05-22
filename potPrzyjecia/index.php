@@ -1,3 +1,3 @@
 <?
-   header("Location: https://serwis.notebookservice.pl/"); 
+   header("Location: https://[strona]"); 
 ?>
