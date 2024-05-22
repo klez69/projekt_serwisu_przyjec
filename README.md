@@ -1,3 +1,3 @@
-# Projekt Przyjec serwisowych
-## Program serwisowy
-### PRZYJECIAS
+# Projekt Przyjeć serwisowych komputera
+## Program serwisowy - serwisów komputerowych
+### PRZYJEC
