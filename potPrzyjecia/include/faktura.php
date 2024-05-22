@@ -326,7 +326,7 @@ Razem:</td>
 <?
 
 
-// ©Jacek Lisowski -------------------------------------------------------
+// © -------------------------------------------------------
 function LiczbaSlownie($Liczba) {
 $MLD_ = 1000000000;
 $MLN_ = 1000000;
@@ -423,7 +423,7 @@ $Setki = array('', 'sto ', 'dwieście ', 'trzysta ', 'czterysta ', 'pięset ',
 	return $Tekst;
 }
 
-// ©Jacek Lisowski -------------------------------------------------------
+// © -------------------------------------------------------
 function KwotaSlownie($kwota) {
 	$zl = floor($kwota);
 	$gr = round(($kwota - $zl) * 100, 0);
