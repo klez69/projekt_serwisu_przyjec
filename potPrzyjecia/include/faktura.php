@@ -1,12 +1,12 @@
 ﻿<?
 
-
+include('include/dtbas.php');
 $name = $_GET['name'];
 $a = trim($_REQUEST['a']);
 
 
-$db = @mysql_connect ('localhost', 'notebook_joom671', '@3GS916@pf');
-	mysql_select_db('notebook_joom671');
+$db = @mysql_connect ('$db_srvr1', '$db_user1', '$db_pswd1');
+	mysql_select_db('$db_dtbs1');
 
 
 // parametry do faktury odbiorcy
@@ -311,7 +311,7 @@ Razem:</td>
 </table>
 <br /><br /><br />
 <input type="submit" class="button" value="<<-Wstecz" onclick="javascript: history.go(-1)" />
-<a href="http://www.notebookservice.pl/potPrzyjecia/include/faktura.php?a=save&name=<?=$num?>">ZAPISZ</a>
+<a href="http://[strona]/potPrzyjecia/include/faktura.php?a=save&name=<?=$num?>">ZAPISZ</a>
 <?
 /*
 <input type="submit" class="button" value="Drukuj" onclick="window.print()" />
