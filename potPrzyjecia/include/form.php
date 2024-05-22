@@ -1,9 +1,9 @@
 ﻿<div id="form">
 <h2>Potwierdzenie przyjęcia sprzetu do naprawy</h2>
 <h3>
-Notebook Service<br />
-ul. Pulaskiego 6B, 33-100 Tarnów<br />
-Tel. 503 779 312
+[nazwa]<br />
+[adres]<br />
+Tel. [tel]
 </h3>
 <form action="form.php" method="post" />
 <p>Numer zlecenia:<input type="text" name="nr" value="<?=$nr?>" />
