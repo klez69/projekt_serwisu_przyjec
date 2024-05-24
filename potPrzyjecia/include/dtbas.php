@@ -13,4 +13,6 @@ $db_dtbs1 = "baza";
 $db_error00 = '';
 $db_error01 = 'ERROR (mysql_connect): nie mozna polaczyc sie z baza danych, sprobuj pozniej.';
 $db_error02 = 'ERROR (mysql_select_db): nie mozna polaczyc sie z baza danych.';
+
+$klucz = '';
 ?>
