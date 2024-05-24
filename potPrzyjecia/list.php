@@ -3,7 +3,7 @@ session_start();
 
 
 if (!isset($_SESSION['s']) || $_SESSION['s']!==true) {
-	if ( isset($_GET['s']) & ($_GET['s']=='1qaz2wsx') ) {
+	if ( isset($_GET['s']) & ($_GET['s']=='$klucz') ) {
 		$_SESSION['s'] = true;
 	} else {
 		$_SESSION['s'] = false;
