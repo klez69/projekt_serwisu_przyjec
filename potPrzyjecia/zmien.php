@@ -1,6 +1,6 @@
 ﻿<? include ('layout/header.php');?>
 <div id="form">
-<img src="logoo.png">
+<img src="[logo]">
 <h2>Potwierdzenie przyjęcia sprzetu do naprawy</h2>
 <br />
 <center><b><p>
