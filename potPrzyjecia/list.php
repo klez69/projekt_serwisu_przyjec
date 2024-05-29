@@ -2,12 +2,22 @@
 session_start();
 include('include/dtbas.php');
 
+<<<<<<< HEAD
 if (!isset($_SESSION['s']) || $_SESSION['s'] !== true) {
     if (isset($_GET['s']) && $_GET['s'] === '$klucz') {
         $_SESSION['s'] = true;
     } else {
         $_SESSION['s'] = false;
     }
+=======
+
+if (!isset($_SEgit SSION['s']) || $_SESSION['s']!==true) {
+	if ( isset($_GET['s']) & ($_GET['s']=='$klucz') ) {
+		$_SESSION['s'] = true;
+	} else {
+		$_SESSION['s'] = false;
+	}
+>>>>>>> 9e2c750e2cffae93431002972268d3695ef75cdc
 }
 
 if (isset($_GET['l']) && $_GET['l'] == 1) {
