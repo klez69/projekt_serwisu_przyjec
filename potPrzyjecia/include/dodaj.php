@@ -2,11 +2,7 @@
 <img src="images/logoo.png">
 <h2>Potwierdzenie przyjęcia sprzetu do naprawy</h2>
 <br />
-<center><b><p>
-[nazwa]<br />
-[adres]<br />
-Tel. [tel]<br />
-</p></b></center>
+<center><b><p>[nazwa]<br />[adres]<br />Tel. [tel]<br /></p></b></center>
 <form action="form.php" method="post" />
 <p>Numer zlecenia:<input type="text" name="nr" value="<?=$nr?>" />
 

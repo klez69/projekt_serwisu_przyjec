@@ -4,9 +4,9 @@
 <h2>Potwierdzenie przyjęcia sprzetu do naprawy</h2>
 <br />
 <center><b><p>
-Notebook Service<br />
-ul. Pułaskiego 6B, 33-100 Tarnów<br />
-Tel. 503 779 312<br />
+[nazwa]<br />
+[adres]<br />
+Tel. [tel]<br />
 </p></b></center>
 <form action="form.php" method="post" />
 <p>Numer zlecenia:<input type="text" name="nr" value="<?=$nr?>" />
