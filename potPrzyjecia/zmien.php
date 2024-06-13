@@ -1,12 +1,13 @@
 ﻿<? include ('layout/header.php');?>
 <div id="form">
-<img src="logoo.png">
+<img src="[logo]">
 <h2>Potwierdzenie przyjęcia sprzetu do naprawy</h2>
 <br />
 <center><b><p>
 [nazwa]<br />
 [adres]<br />
-Tel. [tel]<br />
+Tel. [telefon]<br />
+
 </p></b></center>
 <form action="form.php" method="post" />
 <p>Numer zlecenia:<input type="text" name="nr" value="<?=$nr?>" />
