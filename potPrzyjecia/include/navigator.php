@@ -13,8 +13,8 @@ function insert_navigator ($criteria, $count, $ile_wynikow, $strona, $query) {
 		
 		$pNum=$count/$ile_wynikow;
 	
-		$query.=' LIMIT '.($strona*$ile_wynikow).','.$ile_wynikow;
-		$potwierdzenie = mysql_query ($query);
+		$query =' LIMIT '.($strona*$ile_wynikow).','.$ile_wynikow;
+		$potwierdzenie = mysqli_query ($query);
 
 		$lStron = ceil($count/$ile_wynikow);
 		
