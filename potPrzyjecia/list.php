@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('include/dtbas.php');
+include('potPrzyjecia/include/dtbas.php');
 
 if (!isset($_SESSION['s']) || $_SESSION['s'] !== true) {
     if (isset($_GET['s']) && $_GET['s'] === '$klucz') {
@@ -15,8 +15,8 @@ if (isset($_GET['l']) && $_GET['l'] == 1) {
 }
 
 if ($_SESSION['s'] === true) {
-    include('layout/header.php');
-    include('include/dtbas.php');
+    include('potPrzyjecia/layout/header.php');
+    include('potPrzyjecia/include/dtbas.php');
 
     // Tworzenie połączenia
     $db = new mysqli($db_srvr1, $db_user1, $db_pswd1, $db_dtbs1);
@@ -26,11 +26,11 @@ if ($_SESSION['s'] === true) {
         die("Connection failed: " . $db->connect_error);
     }
 
-    include('include/list.php');
+    include('potPrzyjecia/include/list.php');
 
     // Zamknięcie połączenia
     $db->close();
-    include('layout/footer.php');
+    include('potPrzyjecia/layout/footer.php');
 } else {
     header("Location: http://[strona]");
     exit();
