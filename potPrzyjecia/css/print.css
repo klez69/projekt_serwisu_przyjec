@@ -1,6 +1,20 @@
-body {font-size: 11px; background-color: #fff;}
-h4 {padding: 1.5em 0;}
-#form table {font-size: 11px;}
-#form td {padding: 1em 0;}
-#form input {font-size: 13px; font-weight: bold;}
-.button {display: none;}
+body {
+	font-size: 11px;
+	background-color: #fff;
+}
+h4 {
+	padding: 1.5em 0;
+}
+#form table {
+	font-size: 11px;
+}
+#form td {
+	padding: 1em 0;
+}
+#form input {
+	font-size: 13px;
+	font-weight: bold;
+}
+.button {
+	display: none;
+}
