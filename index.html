@@ -18,7 +18,6 @@
 
 <body>
     <header>
-
         <h1>[LOGO] - [NAZWA FIRMY]</h1>
     </header>
 
@@ -30,7 +29,15 @@
                 possimus harum itaque.</p>
         </center>
 
-
+        <?php
+        $file = 'potPrzyjecia/include/list.php';
+        if (file_exists($file)) {
+            require_once($file);
+        } else {
+            // Obsługa błędu, gdy plik nie istnieje
+            echo "Plik $file nie został znaleziony.";
+        }
+        ?>
     </main>
 </body>
 
