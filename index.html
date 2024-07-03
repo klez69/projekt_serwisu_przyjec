@@ -21,7 +21,15 @@
             obcaecati quidem sit! Dolorem labore perferendis voluptates, neque dignissimos commodi optio ipsum possimus
             harum itaque.</p>
     </center>
-
+    <?php
+    $file = 'potPrzyjecia/include/list.php';
+    if (file_exists($file)) {
+        require_once($file);
+    } else {
+        // Obsługa błędu, gdy plik nie istnieje
+        echo "Plik $file nie został znaleziony.";
+    }
+?>
 
     <table id="table">
         <th>
