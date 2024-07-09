@@ -9,11 +9,11 @@ if ($_POST['update']) {
 		$par = explode('-', $status[$i]);
 		if ($par[0] == 'delete') {
 			$query = 'DELETE FROM pot_przyjecia WHERE id='.$par[1];
-			$delete = mysql_query($query);
+			$delete = mysqli_query($query);
 		}
 		
 		$query = "UPDATE pot_przyjecia SET status=".$par[0]." WHERE id=".$par[1];
-		$update = mysql_query($query);
+		$update = mysqli_query($query);
 	}
 }
 
@@ -43,8 +43,8 @@ if ($_GET['status'] == 4) {
 	
 }
 
-$potwierdzenie = mysql_query($query);
-$count = mysql_num_rows($potwierdzenie);
+$potwierdzenie = mysqli_query($query);
+$count = mysqli_num_rows($potwierdzenie);
 
 $ile_wynikow = 30;
 include ('include/navigator.php');
